@@ -1,5 +1,6 @@
 # PRODIGY_WD_02
 Modern Stopwatch Web App
+
 A sleek, responsive, and high-precision stopwatch application built with vanilla JavaScript, HTML, and CSS. This project features a "Glassmorphism" UI design and provides essential timing functionalities including lap recording and state-persistent controls.
 
 🚀 Features

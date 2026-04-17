@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro-Timer | Stopwatch Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="stopwatch-card">
+            <h1>Stopwatch</h1>
+            <div class="display">
+                <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+            </div>
+
+            <div class="controls">
+                <button id="startBtn" onclick="start()">Start</button>
+                <button id="pauseBtn" onclick="pause()" disabled>Pause</button>
+                <button id="lapBtn" onclick="recordLap()" disabled>Lap</button>
+                <button id="resetBtn" onclick="reset()">Reset</button>
+            </div>
+
+            <div class="laps-container">
+                <h3>Lap Times</h3>
+                <ul id="lapsList">
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
